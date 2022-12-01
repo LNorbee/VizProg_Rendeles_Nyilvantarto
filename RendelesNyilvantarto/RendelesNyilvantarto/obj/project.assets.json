@@ -8,23 +8,23 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\lazar\\.nuget\\packages\\": {},
+    "C:\\Users\\turif\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lazar\\Desktop\\VizProg_Rendeles_Nyilvantarto\\RendelesNyilvantarto\\RendelesNyilvantarto\\RendelesNyilvantarto.csproj",
+      "projectUniqueName": "C:\\Users\\turif\\Source\\Repos\\VizProg_Rendeles_Nyilvantarto\\RendelesNyilvantarto\\RendelesNyilvantarto\\RendelesNyilvantarto.csproj",
       "projectName": "RendelesNyilvantarto",
-      "projectPath": "C:\\Users\\lazar\\Desktop\\VizProg_Rendeles_Nyilvantarto\\RendelesNyilvantarto\\RendelesNyilvantarto\\RendelesNyilvantarto.csproj",
-      "packagesPath": "C:\\Users\\lazar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lazar\\Desktop\\VizProg_Rendeles_Nyilvantarto\\RendelesNyilvantarto\\RendelesNyilvantarto\\obj\\",
+      "projectPath": "C:\\Users\\turif\\Source\\Repos\\VizProg_Rendeles_Nyilvantarto\\RendelesNyilvantarto\\RendelesNyilvantarto\\RendelesNyilvantarto.csproj",
+      "packagesPath": "C:\\Users\\turif\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\turif\\Source\\Repos\\VizProg_Rendeles_Nyilvantarto\\RendelesNyilvantarto\\RendelesNyilvantarto\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\lazar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\turif\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

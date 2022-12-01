@@ -23,8 +23,8 @@ namespace RendelesNyilvantarto
             DateTime utcTime1 = new DateTime(2008, 6, 19, 7, 0, 0);
             dsRendelesNyilvantarto.dtRendelések.AdddtRendelésekRow(1, "Test Elek", utcTime1, utcTime1);
             dsRendelesNyilvantarto.dtRendelések.AdddtRendelésekRow(2, "Gipsz Jakó", utcTime1, utcTime1);
-            dsRendelesNyilvantarto.dtTermékek.AdddtTermékekRow(1, "Televízió", 100000, "tv-01");
-            dsRendelesNyilvantarto.dtTermékek.AdddtTermékekRow(2, "Rádió", 20000, "radio-01");
+            dsRendelesNyilvantarto.dtTermékek.AdddtTermékekRow(1, "Televízió", "100000", "tv-01");
+            dsRendelesNyilvantarto.dtTermékek.AdddtTermékekRow(2, "Rádió", "20000", "radio-01");
             dsRendelesNyilvantarto.dtRendelésRészletei.AdddtRendelésRészleteiRow(1, 1);
             dsRendelesNyilvantarto.dtRendelésRészletei.AdddtRendelésRészleteiRow(2, 1);
 
@@ -43,6 +43,8 @@ namespace RendelesNyilvantarto
         private void tsmiRendelések_Click(object sender, EventArgs e)
         {
             // kattintásra látható lesz a rendelések listája
+            ucTermek.Visible = false;
+            ucRendelesFelvetel.Visible = false;
             dgv.Visible = true;
             dgv.Dock= DockStyle.Fill;
             //dgv.DataSource = dsRendelesNyilvantarto.dtRendelések;
@@ -63,6 +65,31 @@ namespace RendelesNyilvantarto
                             x.SzállításiDátum
                         };
             dgv.DataSource = eredm.ToList();
+        }
+
+        private void tsmiTermék_Click(object sender, EventArgs e)
+        {
+            dgv.Visible= false;
+            ucRendelesFelvetel.Visible = false;
+            //átadja az ûrlapnak az infot
+            ucTermek.dsRendelesNyilvantarto = dsRendelesNyilvantarto;
+            ucTermek.Visible = true;
+            ucTermek.Dock = DockStyle.Fill;
+        }
+
+        private void tsmMentés_Click(object sender, EventArgs e)
+        {
+            Lement();
+        }
+
+        private void rendelésFelvételToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            dgv.Visible = false;
+            ucTermek.Visible= false;   
+            //átadja az ûrlapnak az infot
+            ucRendelesFelvetel.dsRendelesNyilvantarto = dsRendelesNyilvantarto;
+            ucRendelesFelvetel.Visible = true;
+            ucRendelesFelvetel.Dock = DockStyle.Fill;
         }
     }
 }

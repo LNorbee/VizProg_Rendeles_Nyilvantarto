@@ -26,7 +26,7 @@
           <xs:complexType>
             <xs:sequence>
               <xs:element name="RendelésKód" msprop:Generator_ColumnPropNameInTable="RendelésKódColumn" msprop:Generator_ColumnPropNameInRow="RendelésKód" msprop:Generator_UserColumnName="RendelésKód" msprop:Generator_ColumnVarNameInTable="columnRendelésKód" type="xs:short" minOccurs="0" />
-              <xs:element name="TermékAzonosító" msprop:Generator_ColumnPropNameInRow="TermékAzonosító" msprop:Generator_ColumnPropNameInTable="TermékAzonosítóColumn" msprop:Generator_ColumnVarNameInTable="columnTermékAzonosító" msprop:Generator_UserColumnName="TermékAzonosító" type="xs:short" minOccurs="0" />
+              <xs:element name="TermékAzonosító" msprop:Generator_UserColumnName="TermékAzonosító" msprop:Generator_ColumnPropNameInTable="TermékAzonosítóColumn" msprop:Generator_ColumnPropNameInRow="TermékAzonosító" msprop:Generator_ColumnVarNameInTable="columnTermékAzonosító" type="xs:short" minOccurs="0" />
             </xs:sequence>
           </xs:complexType>
         </xs:element>
@@ -35,7 +35,7 @@
             <xs:sequence>
               <xs:element name="Azonosító" msprop:Generator_ColumnPropNameInTable="AzonosítóColumn" msprop:Generator_ColumnPropNameInRow="Azonosító" msprop:Generator_UserColumnName="Azonosító" msprop:Generator_ColumnVarNameInTable="columnAzonosító" type="xs:short" />
               <xs:element name="TermékNév" msprop:Generator_ColumnPropNameInTable="TermékNévColumn" msprop:Generator_ColumnPropNameInRow="TermékNév" msprop:Generator_UserColumnName="TermékNév" msprop:Generator_ColumnVarNameInTable="columnTermékNév" type="xs:string" minOccurs="0" />
-              <xs:element name="ListaÁr" msprop:Generator_ColumnPropNameInTable="ListaÁrColumn" msprop:Generator_ColumnPropNameInRow="ListaÁr" msprop:Generator_UserColumnName="ListaÁr" msprop:Generator_ColumnVarNameInTable="columnListaÁr" type="xs:long" minOccurs="0" />
+              <xs:element name="ListaÁr" msprop:Generator_ColumnPropNameInTable="ListaÁrColumn" msprop:Generator_ColumnPropNameInRow="ListaÁr" msprop:Generator_UserColumnName="ListaÁr" msprop:Generator_ColumnVarNameInTable="columnListaÁr" type="xs:string" minOccurs="0" />
               <xs:element name="TermékKód" msprop:Generator_ColumnPropNameInTable="TermékKódColumn" msprop:Generator_ColumnPropNameInRow="TermékKód" msprop:Generator_UserColumnName="TermékKód" msprop:Generator_ColumnVarNameInTable="columnTermékKód" type="xs:string" minOccurs="0" />
             </xs:sequence>
           </xs:complexType>
@@ -50,13 +50,13 @@
       <xs:selector xpath=".//mstns:dtTermékek" />
       <xs:field xpath="mstns:Azonosító" />
     </xs:unique>
-    <xs:keyref name="FK_dtTermékek_dtRendelésRészletei" refer="dtTermékek_Constraint1" msdata:ConstraintOnly="true">
-      <xs:selector xpath=".//mstns:dtRendelésRészletei" />
-      <xs:field xpath="mstns:TermékAzonosító" />
-    </xs:keyref>
     <xs:keyref name="FK_dtRendelések_dtRendelésRészletei" refer="Constraint1" msdata:ConstraintOnly="true">
       <xs:selector xpath=".//mstns:dtRendelésRészletei" />
       <xs:field xpath="mstns:RendelésKód" />
+    </xs:keyref>
+    <xs:keyref name="FK_dtTermékek_dtRendelésRészletei" refer="dtTermékek_Constraint1" msdata:ConstraintOnly="true">
+      <xs:selector xpath=".//mstns:dtRendelésRészletei" />
+      <xs:field xpath="mstns:TermékAzonosító" />
     </xs:keyref>
   </xs:element>
 </xs:schema>

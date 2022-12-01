@@ -12,6 +12,30 @@
     <RendelésiDátum>2008-06-19T07:00:00+02:00</RendelésiDátum>
     <SzállításiDátum>2008-06-19T07:00:00+02:00</SzállításiDátum>
   </dtRendelések>
+  <dtRendelések>
+    <Rendeléskód>3</Rendeléskód>
+    <VevőNeve>Tesz Elek</VevőNeve>
+    <RendelésiDátum>2008-06-19T07:00:00+02:00</RendelésiDátum>
+    <SzállításiDátum>2008-06-19T07:00:00+02:00</SzállításiDátum>
+  </dtRendelések>
+  <dtRendelések>
+    <Rendeléskód>4</Rendeléskód>
+    <VevőNeve>Tesz Elek</VevőNeve>
+    <RendelésiDátum>2008-06-19T07:00:00+02:00</RendelésiDátum>
+    <SzállításiDátum>2008-06-19T07:00:00+02:00</SzállításiDátum>
+  </dtRendelések>
+  <dtRendelések>
+    <Rendeléskód>5</Rendeléskód>
+    <VevőNeve>Kiss Elemír</VevőNeve>
+    <RendelésiDátum>2008-06-19T07:00:00+02:00</RendelésiDátum>
+    <SzállításiDátum>2008-06-19T07:00:00+02:00</SzállításiDátum>
+  </dtRendelések>
+  <dtRendelések>
+    <Rendeléskód>6</Rendeléskód>
+    <VevőNeve>Kiss Elemír</VevőNeve>
+    <RendelésiDátum>2008-06-19T07:00:00+02:00</RendelésiDátum>
+    <SzállításiDátum>2008-06-19T07:00:00+02:00</SzállításiDátum>
+  </dtRendelések>
   <dtRendelésRészletei>
     <RendelésKód>1</RendelésKód>
     <TermékAzonosító>1</TermékAzonosító>
@@ -24,9 +48,21 @@
     <RendelésKód>2</RendelésKód>
     <TermékAzonosító>2</TermékAzonosító>
   </dtRendelésRészletei>
+  <dtRendelésRészletei>
+    <RendelésKód>5</RendelésKód>
+    <TermékAzonosító>2</TermékAzonosító>
+  </dtRendelésRészletei>
+  <dtRendelésRészletei>
+    <RendelésKód>6</RendelésKód>
+    <TermékAzonosító>1</TermékAzonosító>
+  </dtRendelésRészletei>
+  <dtRendelésRészletei>
+    <RendelésKód>6</RendelésKód>
+    <TermékAzonosító>2</TermékAzonosító>
+  </dtRendelésRészletei>
   <dtTermékek>
     <Azonosító>1</Azonosító>
-    <TermékNév>Televízió</TermékNév>
+    <TermékNév>Televízió Sony</TermékNév>
     <ListaÁr>100000</ListaÁr>
     <TermékKód>tv-01</TermékKód>
   </dtTermékek>

@@ -4,6 +4,12 @@
     <Compile Update="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="ucRendelesFelvetel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UCTermek.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Update="dsRendelesNyilvantarto.xsd">

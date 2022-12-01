@@ -259,16 +259,16 @@ namespace RendelesNyilvantarto {
             this.tabledtTermékek = new dtTermékekDataTable();
             base.Tables.Add(this.tabledtTermékek);
             global::System.Data.ForeignKeyConstraint fkc;
-            fkc = new global::System.Data.ForeignKeyConstraint("FK_dtTermékek_dtRendelésRészletei", new global::System.Data.DataColumn[] {
-                        this.tabledtTermékek.AzonosítóColumn}, new global::System.Data.DataColumn[] {
-                        this.tabledtRendelésRészletei.TermékAzonosítóColumn});
+            fkc = new global::System.Data.ForeignKeyConstraint("FK_dtRendelések_dtRendelésRészletei", new global::System.Data.DataColumn[] {
+                        this.tabledtRendelések.RendeléskódColumn}, new global::System.Data.DataColumn[] {
+                        this.tabledtRendelésRészletei.RendelésKódColumn});
             this.tabledtRendelésRészletei.Constraints.Add(fkc);
             fkc.AcceptRejectRule = global::System.Data.AcceptRejectRule.None;
             fkc.DeleteRule = global::System.Data.Rule.Cascade;
             fkc.UpdateRule = global::System.Data.Rule.Cascade;
-            fkc = new global::System.Data.ForeignKeyConstraint("FK_dtRendelések_dtRendelésRészletei", new global::System.Data.DataColumn[] {
-                        this.tabledtRendelések.RendeléskódColumn}, new global::System.Data.DataColumn[] {
-                        this.tabledtRendelésRészletei.RendelésKódColumn});
+            fkc = new global::System.Data.ForeignKeyConstraint("FK_dtTermékek_dtRendelésRészletei", new global::System.Data.DataColumn[] {
+                        this.tabledtTermékek.AzonosítóColumn}, new global::System.Data.DataColumn[] {
+                        this.tabledtRendelésRészletei.TermékAzonosítóColumn});
             this.tabledtRendelésRészletei.Constraints.Add(fkc);
             fkc.AcceptRejectRule = global::System.Data.AcceptRejectRule.None;
             fkc.DeleteRule = global::System.Data.Rule.Cascade;
@@ -1035,7 +1035,7 @@ namespace RendelesNyilvantarto {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public dtTermékekRow AdddtTermékekRow(short Azonosító, string TermékNév, long ListaÁr, string TermékKód) {
+            public dtTermékekRow AdddtTermékekRow(short Azonosító, string TermékNév, string ListaÁr, string TermékKód) {
                 dtTermékekRow rowdtTermékekRow = ((dtTermékekRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         Azonosító,
@@ -1077,7 +1077,7 @@ namespace RendelesNyilvantarto {
                 base.Columns.Add(this.columnAzonosító);
                 this.columnTermékNév = new global::System.Data.DataColumn("TermékNév", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnTermékNév);
-                this.columnListaÁr = new global::System.Data.DataColumn("ListaÁr", typeof(long), null, global::System.Data.MappingType.Element);
+                this.columnListaÁr = new global::System.Data.DataColumn("ListaÁr", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnListaÁr);
                 this.columnTermékKód = new global::System.Data.DataColumn("TermékKód", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnTermékKód);
@@ -1435,10 +1435,10 @@ namespace RendelesNyilvantarto {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public long ListaÁr {
+            public string ListaÁr {
                 get {
                     try {
-                        return ((long)(this[this.tabledtTermékek.ListaÁrColumn]));
+                        return ((string)(this[this.tabledtTermékek.ListaÁrColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
                         throw new global::System.Data.StrongTypingException("The value for column \'ListaÁr\' in table \'dtTermékek\' is DBNull.", e);
