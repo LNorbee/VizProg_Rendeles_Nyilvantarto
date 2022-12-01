@@ -1,0 +1,17 @@
+C:\Users\lazar\Desktop\VizProg_Rendeles_Nyilvantarto\RendelesNyilvantarto\RendelesNyilvantarto\bin\Debug\net6.0-windows\RendelesNyilvantarto.exe
+C:\Users\lazar\Desktop\VizProg_Rendeles_Nyilvantarto\RendelesNyilvantarto\RendelesNyilvantarto\bin\Debug\net6.0-windows\RendelesNyilvantarto.deps.json
+C:\Users\lazar\Desktop\VizProg_Rendeles_Nyilvantarto\RendelesNyilvantarto\RendelesNyilvantarto\bin\Debug\net6.0-windows\RendelesNyilvantarto.runtimeconfig.json
+C:\Users\lazar\Desktop\VizProg_Rendeles_Nyilvantarto\RendelesNyilvantarto\RendelesNyilvantarto\bin\Debug\net6.0-windows\RendelesNyilvantarto.dll
+C:\Users\lazar\Desktop\VizProg_Rendeles_Nyilvantarto\RendelesNyilvantarto\RendelesNyilvantarto\bin\Debug\net6.0-windows\RendelesNyilvantarto.pdb
+C:\Users\lazar\Desktop\VizProg_Rendeles_Nyilvantarto\RendelesNyilvantarto\RendelesNyilvantarto\obj\Debug\net6.0-windows\RendelesNyilvantarto.csproj.AssemblyReference.cache
+C:\Users\lazar\Desktop\VizProg_Rendeles_Nyilvantarto\RendelesNyilvantarto\RendelesNyilvantarto\obj\Debug\net6.0-windows\RendelesNyilvantarto.Form1.resources
+C:\Users\lazar\Desktop\VizProg_Rendeles_Nyilvantarto\RendelesNyilvantarto\RendelesNyilvantarto\obj\Debug\net6.0-windows\RendelesNyilvantarto.csproj.GenerateResource.cache
+C:\Users\lazar\Desktop\VizProg_Rendeles_Nyilvantarto\RendelesNyilvantarto\RendelesNyilvantarto\obj\Debug\net6.0-windows\RendelesNyilvantarto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lazar\Desktop\VizProg_Rendeles_Nyilvantarto\RendelesNyilvantarto\RendelesNyilvantarto\obj\Debug\net6.0-windows\RendelesNyilvantarto.AssemblyInfoInputs.cache
+C:\Users\lazar\Desktop\VizProg_Rendeles_Nyilvantarto\RendelesNyilvantarto\RendelesNyilvantarto\obj\Debug\net6.0-windows\RendelesNyilvantarto.AssemblyInfo.cs
+C:\Users\lazar\Desktop\VizProg_Rendeles_Nyilvantarto\RendelesNyilvantarto\RendelesNyilvantarto\obj\Debug\net6.0-windows\RendelesNyilvantarto.csproj.CoreCompileInputs.cache
+C:\Users\lazar\Desktop\VizProg_Rendeles_Nyilvantarto\RendelesNyilvantarto\RendelesNyilvantarto\obj\Debug\net6.0-windows\RendelesNyilvantarto.dll
+C:\Users\lazar\Desktop\VizProg_Rendeles_Nyilvantarto\RendelesNyilvantarto\RendelesNyilvantarto\obj\Debug\net6.0-windows\refint\RendelesNyilvantarto.dll
+C:\Users\lazar\Desktop\VizProg_Rendeles_Nyilvantarto\RendelesNyilvantarto\RendelesNyilvantarto\obj\Debug\net6.0-windows\RendelesNyilvantarto.pdb
+C:\Users\lazar\Desktop\VizProg_Rendeles_Nyilvantarto\RendelesNyilvantarto\RendelesNyilvantarto\obj\Debug\net6.0-windows\RendelesNyilvantarto.genruntimeconfig.cache
+C:\Users\lazar\Desktop\VizProg_Rendeles_Nyilvantarto\RendelesNyilvantarto\RendelesNyilvantarto\obj\Debug\net6.0-windows\ref\RendelesNyilvantarto.dll

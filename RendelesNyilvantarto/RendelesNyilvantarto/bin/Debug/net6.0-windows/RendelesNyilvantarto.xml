@@ -1,0 +1,39 @@
+<?xml version="1.0" standalone="yes"?>
+<dsRendelesNyilvantarto xmlns="http://tempuri.org/dsRendelesNyilvantarto.xsd">
+  <dtRendelések>
+    <Rendeléskód>1</Rendeléskód>
+    <VevőNeve>Test Elek</VevőNeve>
+    <RendelésiDátum>2008-06-19T07:00:00+02:00</RendelésiDátum>
+    <SzállításiDátum>2008-06-19T07:00:00+02:00</SzállításiDátum>
+  </dtRendelések>
+  <dtRendelések>
+    <Rendeléskód>2</Rendeléskód>
+    <VevőNeve>Gipsz Jakó</VevőNeve>
+    <RendelésiDátum>2008-06-19T07:00:00+02:00</RendelésiDátum>
+    <SzállításiDátum>2008-06-19T07:00:00+02:00</SzállításiDátum>
+  </dtRendelések>
+  <dtRendelésRészletei>
+    <RendelésKód>1</RendelésKód>
+    <TermékAzonosító>1</TermékAzonosító>
+  </dtRendelésRészletei>
+  <dtRendelésRészletei>
+    <RendelésKód>2</RendelésKód>
+    <TermékAzonosító>1</TermékAzonosító>
+  </dtRendelésRészletei>
+  <dtRendelésRészletei>
+    <RendelésKód>2</RendelésKód>
+    <TermékAzonosító>2</TermékAzonosító>
+  </dtRendelésRészletei>
+  <dtTermékek>
+    <Azonosító>1</Azonosító>
+    <TermékNév>Televízió</TermékNév>
+    <ListaÁr>100000</ListaÁr>
+    <TermékKód>tv-01</TermékKód>
+  </dtTermékek>
+  <dtTermékek>
+    <Azonosító>2</Azonosító>
+    <TermékNév>Rádió</TermékNév>
+    <ListaÁr>20000</ListaÁr>
+    <TermékKód>radio-01</TermékKód>
+  </dtTermékek>
+</dsRendelesNyilvantarto>

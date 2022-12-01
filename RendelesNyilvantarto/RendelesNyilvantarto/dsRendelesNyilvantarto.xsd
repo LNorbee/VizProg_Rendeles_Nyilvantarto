@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsRendelesNyilvantarto" targetNamespace="http://tempuri.org/dsRendelesNyilvantarto.xsd" xmlns:mstns="http://tempuri.org/dsRendelesNyilvantarto.xsd" xmlns="http://tempuri.org/dsRendelesNyilvantarto.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsRendelesNyilvantarto" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsRendelesNyilvantarto" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsRendelesNyilvantarto">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtRendelések" msprop:Generator_RowEvHandlerName="dtRendelésekRowChangeEventHandler" msprop:Generator_RowDeletedName="dtRendelésekRowDeleted" msprop:Generator_RowDeletingName="dtRendelésekRowDeleting" msprop:Generator_RowEvArgName="dtRendelésekRowChangeEvent" msprop:Generator_TablePropName="dtRendelések" msprop:Generator_RowChangedName="dtRendelésekRowChanged" msprop:Generator_UserTableName="dtRendelések" msprop:Generator_RowChangingName="dtRendelésekRowChanging" msprop:Generator_RowClassName="dtRendelésekRow" msprop:Generator_TableClassName="dtRendelésekDataTable" msprop:Generator_TableVarName="tabledtRendelések">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Rendeléskód" msprop:Generator_ColumnPropNameInTable="RendeléskódColumn" msprop:Generator_ColumnPropNameInRow="Rendeléskód" msprop:Generator_UserColumnName="Rendeléskód" msprop:Generator_ColumnVarNameInTable="columnRendeléskód" type="xs:short" />
+              <xs:element name="VevőNeve" msprop:Generator_ColumnPropNameInTable="VevőNeveColumn" msprop:Generator_ColumnPropNameInRow="VevőNeve" msprop:Generator_UserColumnName="VevőNeve" msprop:Generator_ColumnVarNameInTable="columnVevőNeve" type="xs:string" minOccurs="0" />
+              <xs:element name="RendelésiDátum" msprop:Generator_ColumnPropNameInTable="RendelésiDátumColumn" msprop:Generator_ColumnPropNameInRow="RendelésiDátum" msprop:Generator_UserColumnName="RendelésiDátum" msprop:Generator_ColumnVarNameInTable="columnRendelésiDátum" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="SzállításiDátum" msprop:Generator_ColumnPropNameInTable="SzállításiDátumColumn" msprop:Generator_ColumnPropNameInRow="SzállításiDátum" msprop:Generator_UserColumnName="SzállításiDátum" msprop:Generator_ColumnVarNameInTable="columnSzállításiDátum" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtRendelésRészletei" msprop:Generator_RowEvHandlerName="dtRendelésRészleteiRowChangeEventHandler" msprop:Generator_RowDeletedName="dtRendelésRészleteiRowDeleted" msprop:Generator_RowDeletingName="dtRendelésRészleteiRowDeleting" msprop:Generator_RowEvArgName="dtRendelésRészleteiRowChangeEvent" msprop:Generator_TablePropName="dtRendelésRészletei" msprop:Generator_RowChangedName="dtRendelésRészleteiRowChanged" msprop:Generator_UserTableName="dtRendelésRészletei" msprop:Generator_RowChangingName="dtRendelésRészleteiRowChanging" msprop:Generator_RowClassName="dtRendelésRészleteiRow" msprop:Generator_TableClassName="dtRendelésRészleteiDataTable" msprop:Generator_TableVarName="tabledtRendelésRészletei">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RendelésKód" msprop:Generator_ColumnPropNameInTable="RendelésKódColumn" msprop:Generator_ColumnPropNameInRow="RendelésKód" msprop:Generator_UserColumnName="RendelésKód" msprop:Generator_ColumnVarNameInTable="columnRendelésKód" type="xs:short" minOccurs="0" />
+              <xs:element name="TermékAzonosító" msprop:Generator_ColumnPropNameInRow="TermékAzonosító" msprop:Generator_ColumnPropNameInTable="TermékAzonosítóColumn" msprop:Generator_ColumnVarNameInTable="columnTermékAzonosító" msprop:Generator_UserColumnName="TermékAzonosító" type="xs:short" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtTermékek" msprop:Generator_RowEvHandlerName="dtTermékekRowChangeEventHandler" msprop:Generator_RowDeletedName="dtTermékekRowDeleted" msprop:Generator_RowDeletingName="dtTermékekRowDeleting" msprop:Generator_RowEvArgName="dtTermékekRowChangeEvent" msprop:Generator_TablePropName="dtTermékek" msprop:Generator_RowChangedName="dtTermékekRowChanged" msprop:Generator_UserTableName="dtTermékek" msprop:Generator_RowChangingName="dtTermékekRowChanging" msprop:Generator_RowClassName="dtTermékekRow" msprop:Generator_TableClassName="dtTermékekDataTable" msprop:Generator_TableVarName="tabledtTermékek">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Azonosító" msprop:Generator_ColumnPropNameInTable="AzonosítóColumn" msprop:Generator_ColumnPropNameInRow="Azonosító" msprop:Generator_UserColumnName="Azonosító" msprop:Generator_ColumnVarNameInTable="columnAzonosító" type="xs:short" />
+              <xs:element name="TermékNév" msprop:Generator_ColumnPropNameInTable="TermékNévColumn" msprop:Generator_ColumnPropNameInRow="TermékNév" msprop:Generator_UserColumnName="TermékNév" msprop:Generator_ColumnVarNameInTable="columnTermékNév" type="xs:string" minOccurs="0" />
+              <xs:element name="ListaÁr" msprop:Generator_ColumnPropNameInTable="ListaÁrColumn" msprop:Generator_ColumnPropNameInRow="ListaÁr" msprop:Generator_UserColumnName="ListaÁr" msprop:Generator_ColumnVarNameInTable="columnListaÁr" type="xs:long" minOccurs="0" />
+              <xs:element name="TermékKód" msprop:Generator_ColumnPropNameInTable="TermékKódColumn" msprop:Generator_ColumnPropNameInRow="TermékKód" msprop:Generator_UserColumnName="TermékKód" msprop:Generator_ColumnVarNameInTable="columnTermékKód" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:dtRendelések" />
+      <xs:field xpath="mstns:Rendeléskód" />
+    </xs:unique>
+    <xs:unique name="dtTermékek_Constraint1" msdata:ConstraintName="Constraint1">
+      <xs:selector xpath=".//mstns:dtTermékek" />
+      <xs:field xpath="mstns:Azonosító" />
+    </xs:unique>
+    <xs:keyref name="FK_dtTermékek_dtRendelésRészletei" refer="dtTermékek_Constraint1" msdata:ConstraintOnly="true">
+      <xs:selector xpath=".//mstns:dtRendelésRészletei" />
+      <xs:field xpath="mstns:TermékAzonosító" />
+    </xs:keyref>
+    <xs:keyref name="FK_dtRendelések_dtRendelésRészletei" refer="Constraint1" msdata:ConstraintOnly="true">
+      <xs:selector xpath=".//mstns:dtRendelésRészletei" />
+      <xs:field xpath="mstns:RendelésKód" />
+    </xs:keyref>
+  </xs:element>
+</xs:schema>
