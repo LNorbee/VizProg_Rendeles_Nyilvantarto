@@ -36,6 +36,18 @@
     <RendelésiDátum>2008-06-19T07:00:00+02:00</RendelésiDátum>
     <SzállításiDátum>2008-06-19T07:00:00+02:00</SzállításiDátum>
   </dtRendelések>
+  <dtRendelések>
+    <Rendeléskód>7</Rendeléskód>
+    <VevőNeve>hhh</VevőNeve>
+    <RendelésiDátum>2008-06-19T07:00:00+02:00</RendelésiDátum>
+    <SzállításiDátum>2008-06-19T07:00:00+02:00</SzállításiDátum>
+  </dtRendelések>
+  <dtRendelések>
+    <Rendeléskód>8</Rendeléskód>
+    <VevőNeve>Kiss Béla</VevőNeve>
+    <RendelésiDátum>2008-06-19T07:00:00+02:00</RendelésiDátum>
+    <SzállításiDátum>2008-06-19T07:00:00+02:00</SzállításiDátum>
+  </dtRendelések>
   <dtRendelésRészletei>
     <RendelésKód>1</RendelésKód>
     <TermékAzonosító>1</TermékAzonosító>
@@ -59,6 +71,14 @@
   <dtRendelésRészletei>
     <RendelésKód>6</RendelésKód>
     <TermékAzonosító>2</TermékAzonosító>
+  </dtRendelésRészletei>
+  <dtRendelésRészletei>
+    <RendelésKód>7</RendelésKód>
+    <TermékAzonosító>2</TermékAzonosító>
+  </dtRendelésRészletei>
+  <dtRendelésRészletei>
+    <RendelésKód>8</RendelésKód>
+    <TermékAzonosító>1</TermékAzonosító>
   </dtRendelésRészletei>
   <dtTermékek>
     <Azonosító>1</Azonosító>
